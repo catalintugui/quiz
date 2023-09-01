@@ -55,6 +55,7 @@ function DateCounter() {
   const reset = function () {
     // setCount(0);
     // setStep(1);
+    dispatch({ type: "reset" });
   };
 
   return (
